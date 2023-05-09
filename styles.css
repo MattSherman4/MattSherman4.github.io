@@ -100,21 +100,6 @@ div.center .info {
     justify-content: space-between;
 }
 
-div.center .blog .icon {
-    object-fit: cover;
-    width: 40px;
-    height: 40px;
-    padding: 0 0.5rem;
-    border-radius: 50%;
-}
-
-div.center .blog .icontext {
-    font-size: 10px;
-    padding: 0.55rem 0.1rem;
-    width: 100%;
-    color: #5A5A5A;
-}
-
 div.center .info, .author, .tags {
     display: flex;
     padding-right: 0.5rem;
@@ -130,14 +115,6 @@ div.center .blog .tags p {
 div.center .blog .tags p:first-of-type {
     border: 0;
 } 
-
-div.center .blog .thumbnail {
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-    padding: 0 0.5rem;
-    border-radius: 20%;
-}
 
 div.center .blog .blog_content {
     width: 100%;
@@ -184,14 +161,6 @@ div.aboutme .quad {
     height: 50%;
 }
 
-div.aboutme .quad .title {
-    font-size: 36px;
-    font-weight: bold;
-    word-wrap: break-word;
-    text-align: center;
-    text-decoration: underline;
-}
-
 div.aboutme .quad .context {
     font-size: 14px;
     padding: 0 1rem;
@@ -199,12 +168,6 @@ div.aboutme .quad .context {
 
 div.aboutme .quad .contact {
     font-size: 14px;
-    padding: 0 1rem;
-}
-
-div.aboutme .quad .socials {
-    width: 100px;
-    height: 100px;
     padding: 0 1rem;
 }
 
@@ -303,3 +266,309 @@ body {
     background-color: #717171;
 }
 
+/**************** MEDIA TAGS ****************/
+/**************** 2000 ****************/
+@media only screen and (max-width: 2000px) {
+    .responsiveText { 
+       font-size: 16px; 
+    }
+    div.center .blog .icon {
+        object-fit: cover;
+        width: 50px;
+        height: 50px;
+        padding: 0 0.5rem;
+        border-radius: 50%;
+    }
+    
+    div.center .blog .icontext {
+        font-size: 12px;
+        padding: 0.55rem 0.1rem;
+        width: 100%;
+        color: #5A5A5A;
+    }
+
+    div.center .blog .posttitle {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 0 0.2rem;
+        word-wrap: break-word;
+        display:flex;
+    }
+    
+    div.center .blog .headline {
+        font-size: 24px;
+        font-style: italic;
+        padding: 0 0.2rem;
+        word-wrap: break-word;
+        display:flex;
+    }
+    
+    div.center .blog .abstract {
+        font-size: 20px;
+        word-wrap: break-word;
+        display:flex;
+        padding-top: 1rem;
+        padding-left: 3.7rem;
+        padding-right: 1rem;
+        text-indent: -3.5rem;
+    }
+
+    div.center .blog .thumbnail {
+        object-fit: cover;
+        width: 250px;
+        height: 250px;
+        padding: 0 0.5rem;
+        border-radius: 20%;
+    }
+
+/**************** Normal 1600 ****************/
+@media only screen and (max-width: 1600px) {
+    .responsiveText { 
+       font-size: 14px; 
+    }
+
+    div.center .blog .icon {
+        object-fit: cover;
+        width: 40px;
+        height: 40px;
+        padding: 0 0.5rem;
+        border-radius: 50%;
+    }
+    
+    div.center .blog .icontext {
+        font-size: 10px;
+        padding: 0.55rem 0.1rem;
+        width: 100%;
+        color: #5A5A5A;
+    }
+
+    div.center .blog .posttitle {
+        font-size: 24px;
+        font-weight: bold;
+        padding: 0 0.2rem;
+        word-wrap: break-word;
+        display:flex;
+    }
+    
+    div.center .blog .headline {
+        font-size: 18px;
+        font-style: italic;
+        padding: 0 0.2rem;
+        word-wrap: break-word;
+        display:flex;
+    }
+    
+    div.center .blog .abstract {
+        font-size: 14px;
+        word-wrap: break-word;
+        display:flex;
+        padding-top: 1rem;
+        padding-left: 3.7rem;
+        padding-right: 1rem;
+        text-indent: -3.5rem;
+    }
+
+    div.center .blog .thumbnail {
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+        padding: 0 0.5rem;
+        border-radius: 20%;
+    }
+}
+
+/**************** 1200 ****************/
+@media only screen and (max-width: 1200px) {
+    .responsiveText { 
+       font-size: 12px; 
+    }
+
+    div.center .blog .icon {
+        object-fit: cover;
+        width: 30px;
+        height: 30px;
+        padding: 0 0.5rem;
+        border-radius: 50%;
+    }
+    
+    div.center .blog .icontext {
+        font-size: 9px;
+        padding: 0.55rem 0.1rem;
+        width: 100%;
+        color: #5A5A5A;
+    }
+
+    div.aboutme .quad .title {
+        font-size: 36px;
+        font-weight: bold;
+        word-wrap: break-word;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    div.aboutme .quad .socials {
+        width: 100px;
+        height: 100px;
+        padding: 0 1rem;
+    }
+
+    div.center .blog .posttitle {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 0.2rem;
+        word-wrap: break-word;
+        display:flex;
+    }
+    
+    div.center .blog .headline {
+        font-size: 14px;
+        font-style: italic;
+        padding: 0 0.2rem;
+        word-wrap: break-word;
+        display:flex;
+    }
+    
+    div.center .blog .abstract {
+        font-size: 12px;
+        word-wrap: break-word;
+        display:flex;
+        padding-top: 1rem;
+        padding-left: 3.7rem;
+        padding-right: 1rem;
+        text-indent: -3.5rem;
+    }
+
+    div.center .blog .thumbnail {
+        object-fit: cover;
+        width: 175px;
+        height: 175px;
+        padding: 0 0.5rem;
+        border-radius: 20%;
+    }
+}
+
+/**************** 930 ****************/
+@media only screen and (max-width: 930px) {
+    .responsiveText { 
+       font-size: 10px; 
+    }
+
+    div.center .blog .icon {
+        object-fit: cover;
+        width: 20px;
+        height: 20px;
+        padding: 0 0.5rem;
+        border-radius: 50%;
+    }
+    
+    div.center .blog .icontext {
+        font-size: 8px;
+        padding: 0.55rem 0.1rem;
+        width: 100%;
+        color: #5A5A5A;
+    }
+
+    div.aboutme .quad .title {
+        font-size: 24px;
+        font-weight: bold;
+        word-wrap: break-word;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    div.aboutme .quad .socials {
+        width: 75px;
+        height: 75px;
+        padding: 0 1rem;
+    }
+
+    div.center .blog .posttitle {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 0 0.2rem;
+        word-wrap: break-word;
+        display:flex;
+    }
+    
+    div.center .blog .headline {
+        font-size: 12px;
+        font-style: italic;
+        padding: 0 0.2rem;
+        word-wrap: break-word;
+        display:flex;
+    }
+    
+    div.center .blog .abstract {
+        font-size: 10px;
+        word-wrap: break-word;
+        display:flex;
+        padding-top: 1rem;
+        padding-left: 3.7rem;
+        padding-right: 1rem;
+        text-indent: -3.5rem;
+    }
+
+    div.center .blog .thumbnail {
+        object-fit: cover;
+        width: 150px;
+        height: 150px;
+        padding: 0 0.5rem;
+        border-radius: 20%;
+    }
+}
+
+/**************** LARGE ****************/
+@media only screen and (min-width: 2001px) {
+    .responsiveText { 
+       font-size: 18px; 
+    }
+    div.center .blog .icon {
+        object-fit: cover;
+        width: 60px;
+        height: 60px;
+        padding: 0 0.5rem;
+        border-radius: 50%;
+    }
+    
+    div.center .blog .icontext {
+        font-size: 14px;
+        padding: 0.55rem 0.1rem;
+        width: 100%;
+        color: #5A5A5A;
+    }
+
+    div.center .blog .posttitle {
+        font-size: 36px;
+        font-weight: bold;
+        padding: 0 0.2rem;
+        word-wrap: break-word;
+        display:flex;
+    }
+    
+    div.center .blog .headline {
+        font-size: 30px;
+        font-style: italic;
+        padding: 0 0.2rem;
+        word-wrap: break-word;
+        display:flex;
+    }
+    
+    div.center .blog .abstract {
+        font-size: 26px;
+        word-wrap: break-word;
+        display:flex;
+        padding-top: 1rem;
+        padding-left: 3.7rem;
+        padding-right: 1rem;
+        text-indent: -3.5rem;
+    }
+
+    div.center .blog .thumbnail {
+        object-fit: cover;
+        width: 300px;
+        height: 300px;
+        padding: 0 0.5rem;
+        border-radius: 20%;
+    }
+
+}
