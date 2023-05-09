@@ -2,26 +2,89 @@
 <html>
   <head>
     <title>Matthew Sherman Projects</title>
+    <link rel="stylesheet" href="styles.css">
+
   </head>
 
-  <style>
-    body {background-image: url('images/Background1.png');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-        }
-    header{display: block;
-        }
-  </style>
-
-  <img src='images/Me.png' alt="Me" width="304" height="405" style = "position:relative; left:10%; position:absolute; top:15%;">
-
-
-  <header>
-      <p style="font-family: monospace; font-weight: bold; font-size:125%;">MATTHEW SHERMAN | DATA ANALYST</p>
-  </header>
-
   <body>
-    <p style = "text-align:center; font-size:300%;">COMING SOON</p>
+    <div class="left">
+        <div class="nav">
+            <p>MATTHEW SHERMAN | DATA ANALYST</p>
+        </div>
+
+        <img src='images/Me.png' alt="Me" width="304" height="405">
+    </div>
+
+    <div class="right">
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="Matthew Sherman Resume.pdf" target="_blank">Resume</a>
+        </div>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width slides/quotes -->
+            <div class="mySlides">
+                <p>Matthew Sherman is a data scientist out of the University of Maryland.</p>
+            </div>
+        
+            <div class="mySlides">
+                <p>His projects focus on his interests, including sports, geography, and more.</p>
+            </div>
+        
+            <div class="mySlides">
+                <p>Check back to this site periodically for projects on spanning many different topics!</p>
+            </div>
+        
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Dots/bullets/indicators -->
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        
+    </div>
   </body>
+
+  <script>
+    var slideIndex = 1;
+    var timer = null;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      clearTimeout(timer)
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      clearTimeout(timer)
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n==undefined){n = ++slideIndex}
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      timer = setTimeout(showSlides, 4000);
+    } 
+</script>
 </html>
