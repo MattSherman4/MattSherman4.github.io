@@ -287,6 +287,20 @@ body {
         color: #5A5A5A;
     }
 
+    div.aboutme .quad .title {
+        font-size: 48px;
+        font-weight: bold;
+        word-wrap: break-word;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    div.aboutme .quad .socials {
+        width: 125px;
+        height: 125px;
+        padding: 0 1rem;
+    }
+
     div.center .blog .posttitle {
         font-size: 30px;
         font-weight: bold;
@@ -343,12 +357,40 @@ body {
         color: #5A5A5A;
     }
 
+    div.aboutme .quad .title {
+        font-size: 36px;
+        font-weight: bold;
+        word-wrap: break-word;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    div.aboutme .quad .socials {
+        width: 100px;
+        height: 100px;
+        padding: 0 1rem;
+    }
+
     div.center .blog .posttitle {
         font-size: 24px;
         font-weight: bold;
         padding: 0 0.2rem;
         word-wrap: break-word;
         display:flex;
+    }
+    
+    div.aboutme .quad .title {
+        font-size: 36px;
+        font-weight: bold;
+        word-wrap: break-word;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    div.aboutme .quad .socials {
+        width: 100px;
+        height: 100px;
+        padding: 0 1rem;
     }
     
     div.center .blog .headline {
@@ -536,6 +578,20 @@ body {
         padding: 0.55rem 0.1rem;
         width: 100%;
         color: #5A5A5A;
+    }
+
+    div.aboutme .quad .title {
+        font-size: 48px;
+        font-weight: bold;
+        word-wrap: break-word;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    div.aboutme .quad .socials {
+        width: 125px;
+        height: 125px;
+        padding: 0 1rem;
     }
 
     div.center .blog .posttitle {
