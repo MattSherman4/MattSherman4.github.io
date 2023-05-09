@@ -320,6 +320,7 @@ body {
         padding: 0 0.5rem;
         border-radius: 20%;
     }
+}
 
 /**************** Normal 1600 ****************/
 @media only screen and (max-width: 1600px) {
@@ -570,5 +571,4 @@ body {
         padding: 0 0.5rem;
         border-radius: 20%;
     }
-
 }
