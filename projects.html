@@ -25,14 +25,101 @@
             <div class = "filters">
                 <p>Filter: &nbsp</p>
                 <p id="all" class="filter active responsiveText" onclick="filterSelection('all')">All</p>
-                <p id="da" class="filter responsiveText" onclick="filterSelection('da')">Data Analysis</p>
                 <p id="charts" class="filter responsiveText" onclick="filterSelection('charts')">Charts</p>
+                <p id="btc" class="filter responsiveText" onclick="filterSelection('btc')">BTC</p>
+                <p id="da" class="filter responsiveText" onclick="filterSelection('da')">Data Analysis</p>
+                <p id="gis" class="filter responsiveText" onclick="filterSelection('gis')">GIS</p>
                 <p id="football" class="filter responsiveText" onclick="filterSelection('football')">Football</p>
             </div>
             <div class = "blog">
+                <!-- Sprawlball NFL -->
+                <a href="files/ANewStatQuarterbackConsistency.pdf" target="_blank" class = "filterDiv football da gis">
+                    <img class = "thumbnail" src='images/JalenHurts.jpg' alt="Thumbnail15">
+                    <div class="blog_content">
+                        <div class="info">
+                            <div class="author">
+                                <img class = "icon" src='images/Icon.png' alt="Matthew Sherman Icon">
+                                <div class = "icontext"> 
+                                    Matthew Sherman <br>
+                                    Sept 1 ‧ 6 min read
+                                </div>
+                            </div>
+                            <div class="tags responsiveText">
+                                <p>Tags: </p>
+                                <p onclick="myEventHandler(event); document.getElementById('football').click()">Football</p>
+                                <p onclick="myEventHandler(event); document.getElementById('da').click()">Data Analysis</p>
+                                <p onclick="myEventHandler(event); document.getElementById('gis').click()">GIS</p>
+                            </div>
+                        </div>
+                        <div class = "posttitle">Sprawlball NFL - Utilizing GIS for the NFL's Benefit</div>
+                        <div class = "headline">Inspired by the works of Kirk Goldsberry, Sarah Mallepalle, Ron Yurko, Konstantinos Pelechrinis, and Samuel L. Ventura</div>
+                        <div class = "abstract">Abstract: Baseball has long used geographical data on a small 
+                            scale to track information like pitching zones. Recently, the sport's use of geography 
+                            has grown both in prevalence and scale with the growing popularity of spray charts to 
+                            plot against the fear-mongering defensive shift. Following baseball was basketball, which 
+                            now uses geographical data to track shooting zones. The NFL has recently hopped on the geography 
+                            train, however it gatekeeps its source data behind the veil of Next Gen Statistics. Fortunately, 
+                            this data can be gathered through the practice of image analysis, allowing it to be analyzed in 
+                            new ways by independent sources. Which teams use the same play calls on repeat? Whose patterns 
+                            are redundant and predictable? Did Matt Canada actually keep Kenny Pickett from throwing the ball 
+                            over the middle of the field? Geographical data will answer all of these questions and more.
+                        
+                        </div>
+                    </div>
+                </a>
+                <!-- Sprawlball NFL BTC -->
+                <a href= "files\SprawlBallNFLBTC.pdf" target="_blank" class = "filterDiv da gis btc">
+                    <img class = "thumbnail" src='images\SprawllballNFLBCTThumbnail.png' alt="Thumbnail14">
+                    <div class="blog_content">
+                        <div class="info">
+                            <div class="author">
+                                <img class = "icon" src='images/Icon.png' alt="Matthew Sherman Icon">
+                                <div class = "icontext"> 
+                                    Matthew Sherman <br>
+                                    Sept 1 ‧ 1 min read
+                                </div>
+                            </div>
+                            <div class="tags responsiveText">
+                                <p>Tags: </p>
+                                <p onclick="myEventHandler(event); document.getElementById('da').click()">Data Analysis</p>
+                                <p onclick="myEventHandler(event); document.getElementById('gis').click()">GIS</p>
+                                <p onclick="myEventHandler(event); document.getElementById('btc').click()">BTC</p>
+                            </div>
+                        </div>
+                        <div class = "posttitle">Behind The Code: Sprawlball NFL</div>
+                        <div class = "headline">A look at the code and thought process behind this project.</div>
+                        <div class = "abstract">Friendly reminder: All written code is intended for personal use. 
+                            Efficiency and neatness are not the focus of these projects.
+                        </div>
+                    </div>
+                </a>
+                <!-- Sprawlball NFL Charts -->
+                <a href="files\SprawlBallNFLCharts.pdf" target="_blank" class = "filterDiv charts">
+                    <img class = "thumbnail" src='images\JustinHerbertThumbnail.jpg' alt="Thumbnail13">
+                    <div class="blog_content">
+                        <div class="info">
+                            <div class="author">
+                                <img class = "icon" src='images/Icon.png' alt="Matthew Sherman Icon">
+                                <div class = "icontext"> 
+                                    Matthew Sherman <br>
+                                    Sept 1 ‧ Images Only
+                                </div>
+                            </div>
+                            <div class="tags responsiveText">
+                                <p>Tags: </p>
+                                <p onclick="myEventHandler(event); document.getElementById('charts').click()">Charts</p>
+                            </div>
+                        </div>
+                        <div class = "posttitle">Charts! Sprawlball NFL - Utilizing GIS for the NFL's Benefit</div>
+                        <div class = "headline">Just the charts!</div>
+                        <div class = "abstract">The graphics for Sprawlball NFL - Utilizing GIS for the NFL's Benefit.
+                            Inspired by the works of Kirk Goldsberry, Sarah Mallepalle, Ron Yurko, Konstantinos Pelechrinis, and Samuel L. Ventura
+                        </div>
+                    </div>
+                </a>
                 <!-- A New Stat: Quarterback Consistency -->
                 <a href="files/ANewStatQuarterbackConsistency.pdf" target="_blank" class = "filterDiv football da">
-                    <img class = "thumbnail" src='images/TuaTagovailoa.jpg' alt="Thumbnail10">
+                    <img class = "thumbnail" src='images/TuaTagovailoa.jpg' alt="Thumbnail12">
                     <div class="blog_content">
                         <div class="info">
                             <div class="author">
@@ -61,9 +148,34 @@
                         </div>
                     </div>
                 </a>
+                <!-- A New Stat: Quarterback Consistency BTC -->
+                <a href= "files/ANewStatQuarterbackConsistencyBTC.pdf" target="_blank" class = "filterDiv da btc">
+                    <img class = "thumbnail" src='images\ANewStatQuarterbackConsistencyBTCThumbnail.png' alt="Thumbnail11">
+                    <div class="blog_content">
+                        <div class="info">
+                            <div class="author">
+                                <img class = "icon" src='images/Icon.png' alt="Matthew Sherman Icon">
+                                <div class = "icontext"> 
+                                    Matthew Sherman <br>
+                                    Mar 29 ‧ 1 min read
+                                </div>
+                            </div>
+                            <div class="tags responsiveText">
+                                <p>Tags: </p>
+                                <p onclick="myEventHandler(event); document.getElementById('da').click()">Data Analysis</p>
+                                <p onclick="myEventHandler(event); document.getElementById('btc').click()">BTC</p>
+                            </div>
+                        </div>
+                        <div class = "posttitle">Behind The Code: A New Stat: Quarterback Consistency</div>
+                        <div class = "headline">A look at the code and thought process behind this project.</div>
+                        <div class = "abstract">Friendly reminder: All written code is intended for personal use. 
+                            Efficiency and neatness are not the focus of these projects.
+                        </div>
+                    </div>
+                </a>
                 <!-- A New Stat: Quarterback Consistency Charts -->
                 <a href="files\ANewStatQuarterbackConsistencyCharts.pdf" target="_blank" class = "filterDiv charts">
-                    <img class = "thumbnail" src='images\QBConsistencyTable.png' alt="Thumbnail9">
+                    <img class = "thumbnail" src='images\QBConsistencyTable.png' alt="Thumbnail10">
                     <div class="blog_content">
                         <div class="info">
                             <div class="author">
@@ -86,7 +198,7 @@
                 </a>
                 <!-- Scouting Quarterbacks by Scouting Their Wide Recievers -->
                 <a href="files/ScoutingQuarterbacksByScoutingTheirWideRecievers.pdf" target="_blank" class = "filterDiv football da">
-                    <img class = "thumbnail" src='images/KennyPickett.jpg' alt="Thumbnail8">
+                    <img class = "thumbnail" src='images/KennyPickett.jpg' alt="Thumbnail9">
                     <div class="blog_content">
                         <div class="info">
                             <div class="author">
@@ -111,6 +223,31 @@
                             which quarterbacks were carried by their WRs in college, and which 
                             quarterbacks spread the ball too much, missing opportunities to get the 
                             ball into the hands of their greatest playmakers.
+                        </div>
+                    </div>
+                </a>
+                <!-- QBs By WRs Charts BTC -->
+                <a href= "files\ScoutingQuarterbacksByScoutingTheirWideRecieversBTC.pdf" target="_blank" class = "filterDiv da btc">
+                    <img class = "thumbnail" src='images\ScoutingQBsByWRsBCTThumbnail.png' alt="Thumbnail8">
+                    <div class="blog_content">
+                        <div class="info">
+                            <div class="author">
+                                <img class = "icon" src='images/Icon.png' alt="Matthew Sherman Icon">
+                                <div class = "icontext"> 
+                                    Matthew Sherman <br>
+                                    Jan 27 ‧ 2 min read
+                                </div>
+                            </div>
+                            <div class="tags responsiveText">
+                                <p>Tags: </p>
+                                <p onclick="myEventHandler(event); document.getElementById('da').click()">Data Analysis</p>
+                                <p onclick="myEventHandler(event); document.getElementById('btc').click()">BTC</p>
+                            </div>
+                        </div>
+                        <div class = "posttitle">Behind The Code: Scouting Quarterbacks by Scouting Their Wide Recievers</div>
+                        <div class = "headline">A look at the code and thought process behind this project.</div>
+                        <div class = "abstract">Friendly reminder: All written code is intended for personal use. 
+                            Efficiency and neatness are not the focus of these projects.
                         </div>
                     </div>
                 </a>
