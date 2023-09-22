@@ -25,7 +25,6 @@
 
         <!-- Slideshow container -->
         <div class="slideshow-container">
-
             <!-- Full-width slides/quotes -->
             <div class="mySlides">
                 <p class="responsiveText">Matthew Sherman is a data scientist out of the University of Maryland.</p>
@@ -51,6 +50,47 @@
             </div>
         </div>
         
+
+        <div class = "box">
+          <div class = "scroll">
+            <div class = "featuredarticles">
+              Featured Article
+            </div>
+            <div class = "blog">
+              <!-- Sprawlball NFL -->
+              <a href="files/SprawlBallNFL.pdf" target="_blank" class = "filterDiv football da gis">
+                <img class = "thumbnail" src='images/JalenHurts.jpg' alt="Thumbnail15">
+                <div class="blog_content">
+                    <div class="info">
+                        <div class="author">
+                            <img class = "icon" src='images/Icon.png' alt="Matthew Sherman Icon">
+                            <div class = "icontext"> 
+                                Matthew Sherman <br>
+                                Sept 1 ‧ 6 min read
+                            </div>
+                        </div>
+                        <div class="tags responsiveText">
+                            <!-- <p>Tags: </p>
+                            <p onclick="myEventHandler(event); document.getElementById('football').click()">Football</p>
+                            <p onclick="myEventHandler(event); document.getElementById('da').click()">Data Analysis</p>
+                            <p onclick="myEventHandler(event); document.getElementById('gis').click()">GIS</p> -->
+                        </div>
+                    </div>
+                    <div class = "posttitle">Sprawlball NFL - Utilizing GIS for the NFL's Benefit</div>
+                    <div class = "headline">Inspired by the works of Kirk Goldsberry, Sarah Mallepalle, Ron Yurko, Konstantinos Pelechrinis, and Samuel L. Ventura</div>
+                    <div class = "abstract">Abstract: Baseball has long used geographical data on a small 
+                        scale to track information like pitching zones. Recently, the sport's use of geography 
+                        has grown both in prevalence and scale with the growing popularity of spray charts to 
+                        plot against the fear-mongering defensive shift. Following baseball was basketball, which 
+                        now uses geographical data to track shooting zones. The NFL has recently hopped on the geography 
+                        train, however it gatekeeps its source data behind the veil of Next Gen Statistics. Fortunately, 
+                        this data can be gathered through the practice of image analysis, allowing it to be analyzed in 
+                        new ways by independent sources. Which teams use the same play calls on repeat? Whose patterns 
+                        are redundant and predictable? Did Matt Canada actually keep Kenny Pickett from throwing the ball 
+                        over the middle of the field? Geographical data will answer all of these questions and more.
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 
@@ -87,4 +127,11 @@
       timer = setTimeout(showSlides, 4000);
     } 
 </script>
+
+<style>
+  body {
+      /* disabling body scrolling */
+      overflow: hidden;
+  }
+</style>
 </html>

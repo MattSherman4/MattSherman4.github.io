@@ -146,6 +146,134 @@ div.center .blog .abstract {
     text-indent: -3.5rem;
 }
 
+
+
+
+
+div.right .box{
+    background-color: white;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 75%;
+    height: 30%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 15%;
+    border: 3px solid grey;
+    overflow: hidden;
+}
+
+div.right .box .scroll{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+div.right .box .featuredarticles{
+    color: black;
+    text-decoration: none;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+div.right .blog{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-top: .3rem;
+}
+
+div.right .blog a {
+    /* padding: 0.8rem 0;
+    border-top: 2.5px solid grey; */
+    color: black;
+    text-decoration: none;
+    /* display: none; */
+}
+
+div.right .blog .show {
+    display: flex;
+}
+
+div.right .filters {
+    display: flex;
+}
+
+div.right .blog .tags p {
+    margin-right: 0.3rem;
+    padding: 0.1rem 0.1rem;
+    border: 1px solid black;
+    border-radius: 15%;
+}
+
+div.right .blog .tags p:first-of-type {
+    border: 0;
+} 
+
+div.right .blog .blog_content {
+    width: 100%;
+}
+
+div.right .blog .icon {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    padding: 0 0.5rem;
+    border-radius: 50%;
+}
+
+div.right .blog .icontext {
+    font-size: 12px;
+    padding: 0.55rem 0.1rem;
+    width: 100%;
+    color: #5A5A5A;
+}
+
+div.right .blog .thumbnail {
+    object-fit: cover;
+    width: 100px;
+    height: 140px;
+    padding: 0 0.5rem;
+    border-radius: 20%;
+    float: left;
+}
+
+div.right .blog .posttitle {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0.2rem;
+    word-wrap: break-word;
+    display:flex;
+}
+
+div.right .blog .headline {
+    font-size: 16px;
+    font-style: italic;
+    padding: 0 0.2rem;
+    word-wrap: break-word;
+    display:flex;
+}
+
+div.right .blog .abstract {
+    font-size: 12px;
+    word-wrap: break-word;
+    display:flex;
+    padding-top: 1rem;
+    padding-left: 3.7rem;
+    padding-right: 1rem;
+    text-indent: -3.5rem;
+}
+
+
+
+
+
+
+
+
+
+
 div.aboutme {
     display: flex;
     flex-wrap: wrap;
@@ -196,8 +324,9 @@ body {
 .slideshow-container {
     position: relative;
     display: flex;
-    margin-bottom: 2.8rem;
-    height: 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    /* height: 100%; */
     justify-content: center;
     flex-direction: column;
 }
