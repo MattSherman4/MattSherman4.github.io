@@ -7,10 +7,17 @@ body {
     margin: 0;
 }
 
+
+/* --- LEFT --- */
 div.left {
     display: flex;
     flex-direction: column;
     width: 50%;
+    height: 100vh;
+    background-image: url('images/BackgroundL.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
 }
 
 div.left .nav p {
@@ -21,12 +28,20 @@ div.left .nav p {
 
 div.left img {
     margin: auto;
+    width: auto;
+    height: 70%;
 }
 
+
+/* --- RIGHT --- */
 div.right {
     display: flex;
     flex-direction: column;
     width: 50%;
+    background-image: url('images/BackgroundR.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 div.right .nav {
@@ -49,105 +64,6 @@ div.right .nav a {
 div.right .nav a:first-of-type {
     border-left: 0;
 }
-
-div.center {
-    background-color: white;
-    width: 75%;
-    margin: auto;
-    justify-content: center;
-}
-
-div.center .blog{
-    height: 20%;
-    display: flex;
-    flex-direction: column;
-    padding-top: .3rem;
-}
-
-div.center .blog a {
-    padding: 0.8rem 0;
-    border-top: 2.5px solid grey;
-    color: black;
-    text-decoration: none;
-    display: none;
-}
-
-div.center .blog .show {
-    display: flex;
-}
-
-div.center .filters {
-    display: flex;
-}
-
-div.center .filter {
-    margin-right: 0.3rem;
-    padding: 0.1rem 0.1rem;
-    border: 1px solid black;
-    border-radius: 15%;
-}
-
-div.center .filter:hover {
-    background-color: #ddd;
-  }
-  
-div.center .filter.active {
-    background-color: #666;
-    color: white;
-}
-
-div.center .info {
-    justify-content: space-between;
-}
-
-div.center .info, .author, .tags {
-    display: flex;
-    padding-right: 0.5rem;
-}
-
-div.center .blog .tags p {
-    margin-right: 0.3rem;
-    padding: 0.1rem 0.1rem;
-    border: 1px solid black;
-    border-radius: 15%;
-}
-
-div.center .blog .tags p:first-of-type {
-    border: 0;
-} 
-
-div.center .blog .blog_content {
-    width: 100%;
-}
-
-div.center .blog .posttitle {
-    font-size: 24px;
-    font-weight: bold;
-    padding: 0 0.2rem;
-    word-wrap: break-word;
-    display:flex;
-}
-
-div.center .blog .headline {
-    font-size: 18px;
-    font-style: italic;
-    padding: 0 0.2rem;
-    word-wrap: break-word;
-    display:flex;
-}
-
-div.center .blog .abstract {
-    font-size: 14px;
-    word-wrap: break-word;
-    display:flex;
-    padding-top: 1rem;
-    padding-left: 3.7rem;
-    padding-right: 1rem;
-    text-indent: -3.5rem;
-}
-
-
-
 
 
 div.right .box{
@@ -265,60 +181,6 @@ div.right .blog .abstract {
     text-indent: -3.5rem;
 }
 
-
-
-
-
-
-
-
-
-
-div.aboutme {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    width: 90%;
-    height: 85%;
-    margin: auto;
-    justify-content: center;
- }
-
-div.aboutme .quad {
-    width: 50%;
-    height: 50%;
-}
-
-div.aboutme .quad .context {
-    font-size: 14px;
-    padding: 0 1rem;
-}
-
-div.aboutme .quad .contact {
-    font-size: 14px;
-    padding: 0 1rem;
-}
-
-#NW {
-    background-image: url(images/MeCombo.png);
-    background-size: cover;
-    background-position: center;
-}
-
-#SE {
-    background-image: url(images/Pittsburgh.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-/* BACKGROUNd */
-body {
-    background-image: url('images/Background1.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-
 /* -------------- SLIDE SHOW -------------- */
 /* Slideshow container */
 .slideshow-container {
@@ -396,364 +258,60 @@ body {
 }
 
 /**************** MEDIA TAGS ****************/
-/**************** 2000 ****************/
-@media only screen and (max-width: 2000px) {
-    .responsiveText { 
-       font-size: 16px; 
-    }
-    div.center .blog .icon {
-        object-fit: cover;
-        width: 50px;
-        height: 50px;
-        padding: 0 0.5rem;
-        border-radius: 50%;
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+/*********** 480, Mobile Devices ***********/
+@media screen and (max-width: 480px) {
+    div.left {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        background-image: url('images/BackgroundL.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% auto;
     }
     
-    div.center .blog .icontext {
-        font-size: 12px;
-        padding: 0.55rem 0.1rem;
-        width: 100%;
-        color: #5A5A5A;
-    }
-
-    div.aboutme .quad .title {
-        font-size: 48px;
+    div.left .nav p {
+        font-family: monospace;
         font-weight: bold;
-        word-wrap: break-word;
-        text-align: center;
-        text-decoration: underline;
+        padding-left: 2rem;
     }
     
-    div.aboutme .quad .socials {
-        width: 125px;
-        height: 125px;
-        padding: 0 1rem;
-    }
-
-    div.center .blog .posttitle {
-        font-size: 30px;
-        font-weight: bold;
-        padding: 0 0.2rem;
-        word-wrap: break-word;
-        display:flex;
+    div.left img {
+        margin: auto;
     }
     
-    div.center .blog .headline {
-        font-size: 24px;
-        font-style: italic;
-        padding: 0 0.2rem;
-        word-wrap: break-word;
-        display:flex;
+    
+    /* --- RIGHT --- */
+    div.right {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        background-image: url('images/BackgroundR.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
     
-    div.center .blog .abstract {
-        font-size: 20px;
-        word-wrap: break-word;
-        display:flex;
-        padding-top: 1rem;
-        padding-left: 3.7rem;
-        padding-right: 1rem;
-        text-indent: -3.5rem;
-    }
-
-    div.center .blog .thumbnail {
-        object-fit: cover;
-        width: 250px;
-        height: 250px;
-        padding: 0 0.5rem;
-        border-radius: 20%;
-    }
-}
-
-/**************** Normal 1600 ****************/
-@media only screen and (max-width: 1600px) {
-    .responsiveText { 
-       font-size: 14px; 
-    }
-
-    div.center .blog .icon {
-        object-fit: cover;
-        width: 40px;
-        height: 40px;
-        padding: 0 0.5rem;
-        border-radius: 50%;
+    div.right .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
     }
     
-    div.center .blog .icontext {
-        font-size: 10px;
-        padding: 0.55rem 0.1rem;
-        width: 100%;
-        color: #5A5A5A;
-    }
-
-    div.aboutme .quad .title {
-        font-size: 36px;
-        font-weight: bold;
-        word-wrap: break-word;
-        text-align: center;
-        text-decoration: underline;
+    div.right .nav a {
+        width: 20%;
+        padding: 0.8rem 0;
+        margin-bottom: 0.5rem;
+        border-left: 3px solid grey;
+        display: flex;
+        justify-content: center;
+        color: black;
+        text-decoration: none;
     }
     
-    div.aboutme .quad .socials {
-        width: 100px;
-        height: 100px;
-        padding: 0 1rem;
-    }
-
-    div.center .blog .posttitle {
-        font-size: 24px;
-        font-weight: bold;
-        padding: 0 0.2rem;
-        word-wrap: break-word;
-        display:flex;
+    div.right .nav a:first-of-type {
+        border-left: 0;
     }
     
-    div.aboutme .quad .title {
-        font-size: 36px;
-        font-weight: bold;
-        word-wrap: break-word;
-        text-align: center;
-        text-decoration: underline;
-    }
-
-    div.aboutme .quad .socials {
-        width: 100px;
-        height: 100px;
-        padding: 0 1rem;
-    }
-    
-    div.center .blog .headline {
-        font-size: 18px;
-        font-style: italic;
-        padding: 0 0.2rem;
-        word-wrap: break-word;
-        display:flex;
-    }
-    
-    div.center .blog .abstract {
-        font-size: 14px;
-        word-wrap: break-word;
-        display:flex;
-        padding-top: 1rem;
-        padding-left: 3.7rem;
-        padding-right: 1rem;
-        text-indent: -3.5rem;
-    }
-
-    div.center .blog .thumbnail {
-        object-fit: cover;
-        width: 200px;
-        height: 200px;
-        padding: 0 0.5rem;
-        border-radius: 20%;
-    }
-}
-
-/**************** 1200 ****************/
-@media only screen and (max-width: 1200px) {
-    .responsiveText { 
-       font-size: 11px; 
-    }
-
-    div.center .blog .icon {
-        object-fit: cover;
-        width: 30px;
-        height: 30px;
-        padding: 0 0.5rem;
-        border-radius: 50%;
-    }
-    
-    div.center .blog .icontext {
-        font-size: 9px;
-        padding: 0.55rem 0.1rem;
-        width: 100%;
-        color: #5A5A5A;
-    }
-
-    div.aboutme .quad .title {
-        font-size: 36px;
-        font-weight: bold;
-        word-wrap: break-word;
-        text-align: center;
-        text-decoration: underline;
-    }
-    
-    div.aboutme .quad .socials {
-        width: 100px;
-        height: 100px;
-        padding: 0 1rem;
-    }
-
-    div.center .blog .posttitle {
-        font-size: 20px;
-        font-weight: bold;
-        padding: 0 0.2rem;
-        word-wrap: break-word;
-        display:flex;
-    }
-    
-    div.center .blog .headline {
-        font-size: 14px;
-        font-style: italic;
-        padding: 0 0.2rem;
-        word-wrap: break-word;
-        display:flex;
-    }
-    
-    div.center .blog .abstract {
-        font-size: 12px;
-        word-wrap: break-word;
-        display:flex;
-        padding-top: 1rem;
-        padding-left: 3.7rem;
-        padding-right: 1rem;
-        text-indent: -3.5rem;
-    }
-
-    div.center .blog .thumbnail {
-        object-fit: cover;
-        width: 175px;
-        height: 175px;
-        padding: 0 0.5rem;
-        border-radius: 20%;
-    }
-}
-
-/**************** 930 ****************/
-@media only screen and (max-width: 930px) {
-    .responsiveText { 
-       font-size: 10px; 
-    }
-
-    div.center .blog .icon {
-        object-fit: cover;
-        width: 20px;
-        height: 20px;
-        padding: 0 0.5rem;
-        border-radius: 50%;
-    }
-    
-    div.center .blog .icontext {
-        font-size: 8px;
-        padding: 0.55rem 0.1rem;
-        width: 100%;
-        color: #5A5A5A;
-    }
-
-    div.aboutme .quad .title {
-        font-size: 24px;
-        font-weight: bold;
-        word-wrap: break-word;
-        text-align: center;
-        text-decoration: underline;
-    }
-
-    div.aboutme .quad .socials {
-        width: 75px;
-        height: 75px;
-        padding: 0 1rem;
-    }
-
-    div.center .blog .posttitle {
-        font-size: 16px;
-        font-weight: bold;
-        padding: 0 0.2rem;
-        word-wrap: break-word;
-        display:flex;
-    }
-    
-    div.center .blog .headline {
-        font-size: 12px;
-        font-style: italic;
-        padding: 0 0.2rem;
-        word-wrap: break-word;
-        display:flex;
-    }
-    
-    div.center .blog .abstract {
-        font-size: 10px;
-        word-wrap: break-word;
-        display:flex;
-        padding-top: 1rem;
-        padding-left: 3.7rem;
-        padding-right: 1rem;
-        text-indent: -3.5rem;
-    }
-
-    div.center .blog .thumbnail {
-        object-fit: cover;
-        width: 150px;
-        height: 150px;
-        padding: 0 0.5rem;
-        border-radius: 20%;
-    }
-}
-
-/**************** LARGE ****************/
-@media only screen and (min-width: 2001px) {
-    .responsiveText { 
-       font-size: 18px; 
-    }
-    div.center .blog .icon {
-        object-fit: cover;
-        width: 60px;
-        height: 60px;
-        padding: 0 0.5rem;
-        border-radius: 50%;
-    }
-    
-    div.center .blog .icontext {
-        font-size: 14px;
-        padding: 0.55rem 0.1rem;
-        width: 100%;
-        color: #5A5A5A;
-    }
-
-    div.aboutme .quad .title {
-        font-size: 48px;
-        font-weight: bold;
-        word-wrap: break-word;
-        text-align: center;
-        text-decoration: underline;
-    }
-    
-    div.aboutme .quad .socials {
-        width: 125px;
-        height: 125px;
-        padding: 0 1rem;
-    }
-
-    div.center .blog .posttitle {
-        font-size: 36px;
-        font-weight: bold;
-        padding: 0 0.2rem;
-        word-wrap: break-word;
-        display:flex;
-    }
-    
-    div.center .blog .headline {
-        font-size: 30px;
-        font-style: italic;
-        padding: 0 0.2rem;
-        word-wrap: break-word;
-        display:flex;
-    }
-    
-    div.center .blog .abstract {
-        font-size: 26px;
-        word-wrap: break-word;
-        display:flex;
-        padding-top: 1rem;
-        padding-left: 3.7rem;
-        padding-right: 1rem;
-        text-indent: -3.5rem;
-    }
-
-    div.center .blog .thumbnail {
-        object-fit: cover;
-        width: 300px;
-        height: 300px;
-        padding: 0 0.5rem;
-        border-radius: 20%;
-    }
 }
