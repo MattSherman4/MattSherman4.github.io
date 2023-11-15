@@ -5,14 +5,23 @@ body {
     align-content: flex-start;
     height: 100vh;
     margin: 0;
+    font-family: serif, Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif, monospace;
 }
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 13px;
+}
 
 /* --- LEFT --- */
 div.left {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     height: 100vh;
     background-image: url('images/BackgroundL.png');
     background-repeat: no-repeat;
@@ -21,7 +30,7 @@ div.left {
 }
 
 div.left .nav p {
-    font-family: monospace;
+    font-family: monospace, Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     padding-left: 2rem;
 }
@@ -37,7 +46,8 @@ div.left img {
 div.right {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    height: 100vh;
+    width: 100%;
     background-image: url('images/BackgroundR.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -69,8 +79,8 @@ div.right .nav a:first-of-type {
 div.right .box{
     background-color: white;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    width: 75%;
-    height: 30%;
+    width: 80%;
+    height: 50%;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -91,6 +101,7 @@ div.right .box .featuredarticles{
     font-size: 26px;
     text-align: center;
     text-decoration: underline;
+    line-height: normal;
 }
 
 div.right .blog{
@@ -133,7 +144,7 @@ div.right .blog .blog_content {
 
 div.right .blog .icon {
     object-fit: cover;
-    width: 50px;
+    /* width: 50px; */
     height: 50px;
     padding: 0 0.5rem;
     border-radius: 50%;
@@ -148,7 +159,7 @@ div.right .blog .icontext {
  
 div.right .blog .thumbnail {
     object-fit: cover;
-    width: 100px;
+    width: 110px;
     height: 140px;
     padding: 0 0.5rem;
     border-radius: 20%;
@@ -161,6 +172,7 @@ div.right .blog .posttitle {
     padding: 0 0.2rem;
     word-wrap: break-word;
     display:flex;
+    line-height: normal;
 }
 
 div.right .blog .headline {
@@ -169,6 +181,7 @@ div.right .blog .headline {
     padding: 0 0.2rem;
     word-wrap: break-word;
     display:flex;
+    line-height: normal;
 }
 
 div.right .blog .abstract {
@@ -205,6 +218,11 @@ div.right .blog .abstract {
     height: unset;
     padding-top: 0px;
     padding-top: 0px;
+}
+
+p.mySlidesText {
+    line-height: normal;
+    font-size: 16px;
 }
 
 /* Next & previous buttons */
@@ -313,5 +331,6 @@ div.right .blog .abstract {
     div.right .nav a:first-of-type {
         border-left: 0;
     }
-    
 }
+
+

@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Matthew Sherman Projects</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+        crossorigin="anonymous">
         <link rel="stylesheet" href="stylesCenter.css">
     </head>
 
@@ -25,13 +28,87 @@
             <div class = "filters">
                 <p>Filter: &nbsp</p>
                 <p id="all" class="filter active responsiveText" onclick="filterSelection('all')">All</p>
-                <p id="charts" class="filter responsiveText" onclick="filterSelection('charts')">Charts</p>
                 <p id="btc" class="filter responsiveText" onclick="filterSelection('btc')">BTC</p>
+                <p id="charts" class="filter responsiveText" onclick="filterSelection('charts')">Charts</p>
                 <p id="da" class="filter responsiveText" onclick="filterSelection('da')">Data Analysis</p>
-                <p id="gis" class="filter responsiveText" onclick="filterSelection('gis')">GIS</p>
                 <p id="football" class="filter responsiveText" onclick="filterSelection('football')">Football</p>
+                <p id="gis" class="filter responsiveText" onclick="filterSelection('gis')">GIS</p>
+                <p id="interactive" class="filter responsiveText" onclick="filterSelection('interactive')">Interactive</p>
             </div>
             <div class = "blog">
+                <!-- NFL Transactions Immaculate Grid Download -->
+                <a href= "files\NFLTransactionsDownload.zip" target="_blank" class = "filterDiv football interactive" download>
+                    <img class = "thumbnail" src='images\TransactionsPlot.png' alt="Thumbnail16" style = 'object-position: left'>
+                    <div class="blog_content">
+                        <div class="info">
+                            <div class="author">
+                                <img class = "icon" src='images/Icon.png' alt="Matthew Sherman Icon">
+                                <div class = "icontext"> 
+                                    Matthew Sherman <br>
+                                    Nov 10
+                                </div>
+                            </div>
+                            <div class="tags responsiveText">
+                                <p>Tags: </p>
+                                <p onclick="myEventHandler(event); document.getElementById('football').click()">Football</p>
+                                <p onclick="myEventHandler(event); document.getElementById('interactive').click()">Interactive</p>
+                            </div>
+                        </div>
+                        <div class = "posttitle">Download: NFL Transactions and Immaculate Grid Guide</div>
+                        <div class = "headline">The end all be all app for tracking NFL player movement.</div>
+                        <div class = "abstract">Mission Statement: Made for Python 3.9.12, this app tracks NFL Transactions
+                            from 2000 - present. Its purpose is to discover which teams often share players and uncover
+                            trends in player movement. It also seconds as a cheat guide for the Immaculate Grid game.
+                        </div>
+                    </div>
+                </a>
+                <!-- NFL Transactions Immaculate Grid BTC -->
+                <a href= "files\NFLTransactionsImmaculateGridBTC.pdf" target="_blank" class = "filterDiv btc">
+                    <img class = "thumbnail" src='images\NFLTransactionsImmaculateGridGuideBTCThumbnail.png' alt="Thumbnail16">
+                    <div class="blog_content">
+                        <div class="info">
+                            <div class="author">
+                                <img class = "icon" src='images/Icon.png' alt="Matthew Sherman Icon">
+                                <div class = "icontext"> 
+                                    Matthew Sherman <br>
+                                    Nov 10 ‧ 1 min read
+                                </div>
+                            </div>
+                            <div class="tags responsiveText">
+                                <p>Tags: </p>
+                                <p onclick="myEventHandler(event); document.getElementById('btc').click()">BTC</p>
+                            </div>
+                        </div>
+                        <div class = "posttitle">Behind The Code: NFL Transactions and Immaculate Grid Guide</div>
+                        <div class = "headline">A look at the code and thought process behind this project.</div>
+                        <div class = "abstract">Friendly reminder: All written code is intended for personal use. 
+                            Efficiency and neatness are not the focus of these projects.
+                        </div>
+                    </div>
+                </a>
+                <!-- NFL Transactions Immaculate Grid Charts -->
+                <a href= "files\NFLTransactionsImmaculateGridPics.pdf" target="_blank" class = "filterDiv charts">
+                    <img class = "thumbnail" src='images\ImmaculateGrid.png' alt="Thumbnail16" style = 'object-position: left'>
+                    <div class="blog_content">
+                        <div class="info">
+                            <div class="author">
+                                <img class = "icon" src='images/Icon.png' alt="Matthew Sherman Icon">
+                                <div class = "icontext"> 
+                                    Matthew Sherman <br>
+                                    Nov 10 ‧ Images Only
+                                </div>
+                            </div>
+                            <div class="tags responsiveText">
+                                <p>Tags: </p>
+                                <p onclick="myEventHandler(event); document.getElementById('charts').click()">Charts</p>
+                            </div>
+                        </div>
+                        <div class = "posttitle">Charts! NFL Transactions and Immaculate Grid Guide</div>
+                        <div class = "headline">Just the pictures!</div>
+                        <div class = "abstract">Graphical examples of the application in use.
+                        </div>
+                    </div>
+                </a>
                 <!-- Sprawlball NFL -->
                 <a href="files/SprawlBallNFL.pdf" target="_blank" class = "filterDiv football da gis">
                     <img class = "thumbnail" src='images/JalenHurts.jpg' alt="Thumbnail15">

@@ -5,8 +5,17 @@ body {
     align-content: flex-start;
     height: 100vh;
     margin: 0;
+    font-family: serif, Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif, monospace;
 }
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 13px;
+}
 
 /* --- LEFT --- */
 div.left {
