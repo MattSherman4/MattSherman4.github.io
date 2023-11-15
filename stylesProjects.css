@@ -6,6 +6,10 @@ body {
     height: 100vh;
     margin: 0;
     font-family: serif, Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif, monospace;
+    background-image: url('images/Background1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
 }
 
 p {
@@ -21,7 +25,7 @@ p {
 div.left {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
 }
 
 div.left .nav p {
@@ -39,7 +43,7 @@ div.left img {
 div.right {
     display: flex; 
     flex-direction: column;
-    width: 50%;
+    width: 100%;
 }
 
 div.right .nav {
@@ -141,6 +145,7 @@ div.center .blog .posttitle {
     padding: 0 0.2rem;
     word-wrap: break-word;
     display:flex;
+    line-height: normal;
 }
 
 div.center .blog .headline {
@@ -149,6 +154,7 @@ div.center .blog .headline {
     padding: 0 0.2rem;
     word-wrap: break-word;
     display:flex;
+    line-height: normal;
 }
 
 div.center .blog .abstract {
@@ -161,256 +167,6 @@ div.center .blog .abstract {
     text-indent: -3.5rem;
 }
 
-
-
-
-
-div.right .box{
-    background-color: white;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    width: 75%;
-    height: 30%;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    border-radius: 15%;
-    border: 3px solid grey;
-    overflow: hidden;
-}
-
-div.right .box .scroll{
-    height: 100%;
-    overflow-y: scroll;
-}
-
-div.right .box .featuredarticles{
-    color: black;
-    text-decoration: none;
-    font-size: 26px;
-    text-align: center;
-    text-decoration: underline;
-}
-
-div.right .blog{
-    height: 20%;
-    display: flex;
-    flex-direction: column;
-    padding-top: .3rem;
-}
-
-div.right .blog a {
-    /* padding: 0.8rem 0;
-    border-top: 2.5px solid grey; */
-    color: black;
-    text-decoration: none;
-    /* display: none; */
-}
-
-div.right .blog .show {
-    display: flex;
-}
-
-div.right .filters {
-    display: flex;
-}
-
-div.right .blog .tags p {
-    margin-right: 0.3rem;
-    padding: 0.1rem 0.1rem;
-    border: 1px solid black;
-    border-radius: 15%;
-}
-
-div.right .blog .tags p:first-of-type {
-    border: 0;
-} 
-
-div.right .blog .blog_content {
-    width: 100%;
-}
-
-div.right .blog .icon {
-    object-fit: cover;
-    width: 50px;
-    height: 50px;
-    padding: 0 0.5rem;
-    border-radius: 50%;
-}
-
-div.right .blog .icontext {
-    font-size: 12px;
-    padding: 0.55rem 0.1rem;
-    width: 100%;
-    color: #5A5A5A;
-}
- 
-div.right .blog .thumbnail {
-    object-fit: cover;
-    width: 100px;
-    height: 140px;
-    padding: 0 0.5rem;
-    border-radius: 20%;
-    float: left;
-}
-
-div.right .blog .posttitle {
-    font-size: 18px;
-    font-weight: bold;
-    padding: 0 0.2rem;
-    word-wrap: break-word;
-    display:flex;
-}
-
-div.right .blog .headline {
-    font-size: 16px;
-    font-style: italic;
-    padding: 0 0.2rem;
-    word-wrap: break-word;
-    display:flex;
-}
-
-div.right .blog .abstract {
-    font-size: 12px;
-    word-wrap: break-word;
-    display:flex;
-    padding-top: 1rem;
-    padding-left: 3.7rem;
-    padding-right: 1rem;
-    text-indent: -3.5rem;
-}
-
-
-
-
-
-
-
-
-
-
-div.aboutme {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    width: 90%;
-    height: 85%;
-    margin: auto;
-    justify-content: center;
- }
-
-div.aboutme .quad {
-    width: 50%;
-    height: 50%;
-}
-
-div.aboutme .quad .context {
-    font-size: 14px;
-    padding: 0 1rem;
-}
-
-div.aboutme .quad .contact {
-    font-size: 14px;
-    padding: 0 1rem;
-}
-
-#NW {
-    background-image: url(images/MeCombo.png);
-    background-size: cover;
-    background-position: center;
-}
-
-#SE {
-    background-image: url(images/Pittsburgh.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-/* BACKGROUNd */
-body {
-    background-image: url('images/Background1.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    /* background-size: cover; */
-    background-size:100% 100%;
-  }
-
-/* -------------- SLIDE SHOW -------------- */
-/* Slideshow container */
-.slideshow-container {
-    position: relative;
-    display: flex;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    /* height: 100%; */
-    justify-content: center;
-    flex-direction: column;
-}
-
-/* Slides */
-.mySlides {
-    display: none;
-    height: 20px;
-    padding: 80px;
-    text-align: center;
-}
-
-.mySlidesImages {
-    height: unset;
-    padding-top: 0px;
-    padding-top: 0px;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    color: #888;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-    position: absolute;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.4);
-    color: white;
-}
-
-/* The dots/bullets/indicators */
-.dot-container {
-    display: flex;
-    justify-content: center;
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-/* Add a background color to the active dot/circle */
-.active, .dot:hover {
-    background-color: #717171;
-}
-
 /**************** MEDIA TAGS ****************/
 /**************** 2000 ****************/
 @media only screen and (max-width: 2000px) {
@@ -419,7 +175,7 @@ body {
     }
     div.center .blog .icon {
         object-fit: cover;
-        width: 50px;
+        width: auto;
         height: 50px;
         padding: 0 0.5rem;
         border-radius: 50%;
@@ -489,7 +245,7 @@ body {
 
     div.center .blog .icon {
         object-fit: cover;
-        width: 40px;
+        width: auto;
         height: 40px;
         padding: 0 0.5rem;
         border-radius: 50%;
@@ -573,7 +329,7 @@ body {
 
     div.center .blog .icon {
         object-fit: cover;
-        width: 30px;
+        width: auto;
         height: 30px;
         padding: 0 0.5rem;
         border-radius: 50%;
@@ -637,16 +393,22 @@ body {
 
 /**************** 930 ****************/
 @media only screen and (max-width: 930px) {
+    div.right .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .responsiveText { 
        font-size: 10px; 
     }
 
-    div.center .blog .icon {
+    div.center .blog .iconthumbnail {
         object-fit: cover;
-        width: 20px;
-        height: 20px;
+        /* width: 40px; */
+        height: 40px;
         padding: 0 0.5rem;
-        border-radius: 50%;
+        border-radius: 20%;
     }
     
     div.center .blog .icontext {
@@ -712,7 +474,7 @@ body {
     }
     div.center .blog .icon {
         object-fit: cover;
-        width: 60px;
+        width: auto;
         height: 60px;
         padding: 0 0.5rem;
         border-radius: 50%;
