@@ -6,7 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: serif, Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif, monospace;
-    background-color: "#000000";
+    background-color: black;
 }
 
 p {
