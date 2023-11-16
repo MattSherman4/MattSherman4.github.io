@@ -278,13 +278,6 @@ p.mySlidesText {
 
 /**************** MEDIA TAGS ****************/
 
-/**************** 930px ****************/
-@media only screen and (max-width: 930px) {
-    div.right .box{
-        height: 35%;
-    }
-}
-
 /**************** 576px  Extra Small ****************/
 @media only screen and (max-width: 576px) {
     div.right {
@@ -294,10 +287,6 @@ p.mySlidesText {
     div.right .nav {
         justify-content: center;
         background-image: url('images/BackgroundR.png');
-    }
-
-    div.right .box{
-        height: 50%;
     }
 
     /* .slideshow-container {        

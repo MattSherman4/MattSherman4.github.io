@@ -88,7 +88,7 @@ div .text {
     padding: 0 1rem;
 }
 
-div .title {
+div .titleAboutMe {
     font-size: 36px;
     font-weight: bold;
     word-wrap: break-word;
@@ -111,7 +111,7 @@ div .socials {
     div .text {
         font-size: 16px;
     }
-    div .title {
+    div .titleAboutMe {
         font-size: 48px;
     }
     div .socials {
@@ -125,7 +125,7 @@ div .socials {
     div .text {
         font-size: 14px;
     }
-    div .title {
+    div .titleAboutMe {
         font-size: 36px;
     }
     div .socials {
@@ -139,7 +139,7 @@ div .socials {
     div .text {
         font-size: 14px;
     }
-    div .title {
+    div .titleAboutMe {
         font-size: 36px;
     }
     div .socials {
@@ -153,7 +153,7 @@ div .socials {
     div .text {
         font-size: 10px;
     }
-    div .title {
+    div .titleAboutMe {
         font-size: 24px;
     }
     div .socials {
@@ -167,7 +167,7 @@ div .socials {
     div .text {
         font-size: 13px;
     }
-    div .title {
+    div .titleAboutMe {
         font-size: 32px;
     }
     div .socials {
@@ -181,7 +181,7 @@ div .socials {
     div .text {
         font-size: 16px;
     }
-    div .title {
+    div .titleAboutMe {
         font-size: 48px;
     }
     div .socials {
