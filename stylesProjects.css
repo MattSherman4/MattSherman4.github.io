@@ -300,6 +300,7 @@ div.centerProjects .blog .thumbnail {
 
     div.centerProjects .blog .iconthumbnail {
         height: 40px;
+        border-radius: 20%;
     }
     
     div.centerProjects .blog .icontext {
