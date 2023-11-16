@@ -322,6 +322,10 @@ div.centerProjects .blog .thumbnail {
         width: 150px;
         height: 150px;
     }
+
+    div.right .nav a {
+        font-size: 13px;
+    }
 }
 
 /**************** LARGE ****************/

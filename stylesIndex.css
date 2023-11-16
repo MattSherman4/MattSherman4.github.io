@@ -277,6 +277,12 @@ p.mySlidesText {
 }
 
 /**************** MEDIA TAGS ****************/
+/* --- MOBILE LANDSCAPE --- */
+@media only screen and (max-width: 930px) {
+    div.right .nav a {
+        font-size: 13px;
+    }
+}
 
 /**************** 576px  Extra Small ****************/
 @media only screen and (max-width: 576px) {

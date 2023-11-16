@@ -70,6 +70,10 @@ div.right .nav a:first-of-type {
 
 
 /* ABOUT ME */
+div.aboutmebox {
+    justify-content: center;
+}
+
 div.aboutMe {
     background-color: white; 
 }
@@ -157,8 +161,12 @@ div .socials {
         font-size: 24px;
     }
     div .socials {
-        width: 100px;
-        height: 70px;
+        width: 80px;
+        height: 60px;
+    }
+
+    div.right .nav a {
+        font-size: 13px;
     }
 }
 
@@ -167,9 +175,11 @@ div .socials {
     div .text {
         font-size: 13px;
     }
+    
     div .titleAboutMe {
         font-size: 32px;
     }
+
     div .socials {
         width: 100px;
         height: 70px;
