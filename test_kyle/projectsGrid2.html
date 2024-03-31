@@ -8,9 +8,10 @@
         rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
         crossorigin="anonymous">
         <link rel="stylesheet" href="projectsGrid2.css">
+        <script src="test_kyle/projects.js"></script>
     </head>
 
-    <body>
+    <body onload="test()">
         <div class = 'container-fluid h-100'>
             <div class="row">    
                 <div class="col d-none d-sm-block" style="padding: 0;">
@@ -37,7 +38,7 @@
                 <div class="col" style="padding: 0;">
                     <div class = "centerProjects">
                         <div class = "blog">
-                            <div class = "row g-2 mt-3 h-50">
+                            <div class = "row g-2 mt-3 h-50" id="Projects">
                                 <!-- Immaculate Grid -->
                                 <div class="col">
                                     <div class="projBlock">
@@ -163,5 +164,21 @@
                 this.className += " active";
             });
         }
+
+        function test() {
+            var div = document.getElementById('Projects');
+            projects.forEach((x) => {
+                div.innerHTML += `
+                <div class="col">
+                    <div class="projBlock">
+                        <img class = "thumbnail" src='images/TuaTagovailoa.jpg' alt="Tua Tagovailoa - MICHAEL REAVES/GETTY IMAGES">
+                        <div class = "title">` + x.title + `</div>
+                        <div class = "skills">New Statistics, Data Management, Data Analysis</div>
+                        <div class = "desc">Is your favorite quarterback prone to break-out games, break-down games, or just plain consistency?</div>
+                    </div>
+                </div>
+                `;
+            });
+        };
     </script>
 </html>
