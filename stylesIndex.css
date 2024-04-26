@@ -277,27 +277,171 @@ p.mySlidesText {
 }
 
 /**************** MEDIA TAGS ****************/
-/* --- MOBILE LANDSCAPE --- */
+/**************** 2000 ****************/
+@media only screen and (max-width: 2000px) {
+    .textProjects { 
+       font-size: 16px; 
+    }
+    div.centerProjects .blog .icon {
+        height: 50px;
+    }
+    
+    div.centerProjects .blog .icontext {
+        font-size: 12px;
+    }
+
+    div.centerProjects .blog .posttitle {
+        font-size: 30px;
+    }
+    
+    div.centerProjects .blog .headline {
+        font-size: 24px;
+    }
+    
+    div.centerProjects .blog .abstract {
+        font-size: 20px;
+    }
+
+    div.centerProjects .blog .thumbnail {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/**************** Normal 1600 ****************/
+@media only screen and (max-width: 1600px) {
+    .textProjects { 
+       font-size: 14px; 
+    }
+
+    div.centerProjects .blog .icon {
+        height: 40px;
+    }
+    
+    div.centerProjects .blog .icontext {
+        font-size: 10px;
+    }
+
+    div.centerProjects .blog .posttitle {
+        font-size: 24px;
+    }
+    
+    div.centerProjects .blog .headline {
+        font-size: 18px;
+    }
+    
+    div.centerProjects .blog .abstract {
+        font-size: 14px;
+    }
+
+    div.centerProjects .blog .thumbnail {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/**************** 1200 ****************/
+@media only screen and (max-width: 1200px) {
+    .textProjects { 
+       font-size: 11px; 
+    }
+
+    div.centerProjects .blog .icon {
+        height: 30px;
+    }
+    
+    div.centerProjects .blog .icontext {
+        font-size: 9px;
+    }
+
+    div.centerProjects .blog .posttitle {
+        font-size: 20px;
+    }
+    
+    div.centerProjects .blog .headline {
+        font-size: 14px;
+    }
+    
+    div.centerProjects .blog .abstract {
+        font-size: 12px;
+    }
+
+    div.centerProjects .blog .thumbnail {
+        width: 175px;
+        height: 175px;
+    }
+}
+
+/**************** 930 ****************/
 @media only screen and (max-width: 930px) {
+    div.right .nav {
+        justify-content: center;
+    }
+
+    .textProjects { 
+       font-size: 10px; 
+    }
+
+    div.centerProjects .blog .iconthumbnail {
+        height: 40px;
+        border-radius: 20%;
+    }
+    
+    div.centerProjects .blog .icontext {
+        font-size: 8px;
+    }
+
+    div.centerProjects .blog .posttitle {
+        font-size: 16px;
+    }
+    
+    div.centerProjects .blog .headline {
+        font-size: 12px;
+    }
+    
+    div.centerProjects .blog .abstract {
+        font-size: 10px;
+    }
+
+    div.centerProjects .blog .thumbnail {
+        width: 150px;
+        height: 150px;
+    }
+
     div.right .nav a {
         font-size: 13px;
     }
 }
 
-/**************** 576px  Extra Small ****************/
-@media only screen and (max-width: 576px) {
-    div.right {
-        background-image: url('images/BackgroundL.png');
+/**************** LARGE ****************/
+@media only screen and (min-width: 2001px) {
+    .textProjects { 
+       font-size: 18px; 
+    }
+    div.centerProjects .blog .icon {
+        height: 60px;
+    }
+    
+    div.centerProjects .blog .icontext {
+        font-size: 14px;
     }
 
-    div.right .nav {
-        justify-content: center;
-        background-image: url('images/BackgroundR.png');
+    div.centerProjects .blog .posttitle {
+        font-size: 36px;
+    }
+    
+    div.centerProjects .blog .headline {
+        font-size: 30px;
+    }
+    
+    div.centerProjects .blog .abstract {
+        font-size: 26px;
     }
 
-    /* .slideshow-container {        
-        background-image: url('images/BackgroundR.png');
-    } */
+    div.centerProjects .blog .thumbnail {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 
