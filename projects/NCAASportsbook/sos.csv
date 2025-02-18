@@ -1,0 +1,363 @@
+,SOSTeam,SOS
+0,AR Lit Rock,-4.9
+1,Abl Christian,-2.1
+2,Air Force,-4.5
+3,Akron,0.8
+4,Alab A&M,-3.4
+5,Alabama,10.7
+6,Alabama St,-5.6
+7,Albany,-4.9
+8,Alcorn St,0.7
+9,American,-5.3
+10,App State,-1.2
+11,Arizona,13.1
+12,Arizona St,6.1
+13,Ark Pine Bl,-10.6
+14,Arkansas,5.2
+15,Arkansas St,-0.4
+16,Army,-9.2
+17,Auburn,6.4
+18,Austin Peay,-2.4
+19,BYU,6.6
+20,Ball St,-6.5
+21,Baylor,8.1
+22,Bellarmine,-2.9
+23,Belmont,-0.1
+24,Beth-Cook,-8.7
+25,Binghamton,-6.4
+26,Boise St,4.4
+27,Boston Col,2.4
+28,Boston U,-4.8
+29,Bowling Grn,-6.0
+30,Bradley,0.8
+31,Brown,-2.1
+32,Bryant,-1.0
+33,Bucknell,-2.9
+34,Buffalo,-5.5
+35,Butler,6.5
+36,CS Bakersfld,-4.3
+37,CS Fullerton,-1.6
+38,Cal Baptist,-4.9
+39,Cal Poly,-4.2
+40,Cal St Nrdge,-5.8
+41,California,2.9
+42,Campbell,-9.6
+43,Canisius,-0.8
+44,Central Ark,-7.4
+45,Central Conn,-5.1
+46,Central Mich,-6.3
+47,Charl South,-8.1
+48,Charlotte,2.4
+49,Chattanooga,-4.1
+50,Chicago St,-3.8
+51,Cincinnati,3.9
+52,Citadel,-5.4
+53,Clemson,8.5
+54,Cleveland St,-2.6
+55,Coastal Car,-6.4
+56,Col Charlestn,0.5
+57,Colgate,0.6
+58,Colorado,5.4
+59,Colorado St,5.6
+60,Columbia,-6.7
+61,Connecticut,9.0
+62,Coppin St,-4.5
+63,Cornell,-0.7
+64,Creighton,8.5
+65,Dartmouth,-6.0
+66,Davidson,-1.0
+67,Dayton,6.4
+68,DePaul,1.6
+69,Delaware,-1.6
+70,Delaware St,-7.0
+71,Denver,-6.1
+72,Detroit,-3.8
+73,Drake,-0.2
+74,Drexel,-0.5
+75,Duke,8.5
+76,Duquesne,2.3
+77,E Carolina,-3.3
+78,E Illinois,-7.0
+79,E Kentucky,-3.6
+80,E Michigan,-7.9
+81,E Tenn St,-2.8
+82,E Washingtn,2.0
+83,Elon,-7.3
+84,Evansville,-2.7
+85,F Dickinson,-8.0
+86,Fairfield,-4.2
+87,Fla Atlantic,7.5
+88,Fla Gulf Cst,-4.1
+89,Florida,6.0
+90,Florida A&M,-4.7
+91,Florida Intl,-2.8
+92,Florida St,4.2
+93,Fordham,-3.2
+94,Fresno St,-2.4
+95,Furman,-2.1
+96,GA Southern,-2.0
+97,GA Tech,3.8
+98,Gard-Webb,-1.7
+99,Geo Mason,-0.8
+100,Geo Wshgtn,-5.0
+101,Georgetown,-0.1
+102,Georgia,2.7
+103,Georgia St,-2.4
+104,Gonzaga,6.3
+105,Grambling St,-6.9
+106,Grd Canyon,0.0
+107,Hampton,-8.7
+108,Harvard,-2.4
+109,Hawaii,-3.8
+110,High Point,-3.8
+111,Hofstra,2.0
+112,Holy Cross,-7.8
+113,Houston,8.5
+114,Howard,-2.1
+115,Hsn Christian,-8.1
+116,IL-Chicago,-2.1
+117,IPFW,-4.5
+118,IUPUI,-11.7
+119,Idaho,-6.8
+120,Idaho St,-5.9
+121,Illinois,9.3
+122,Illinois St,-2.0
+123,Incar Word,-6.9
+124,Indiana,4.6
+125,Indiana St,3.0
+126,Iona,-1.6
+127,Iowa,7.4
+128,Iowa St,6.5
+129,Jackson St,1.0
+130,Jacksonville,-7.0
+131,James Mad,-0.7
+132,Jksnville St,-4.0
+133,Kansas,8.1
+134,Kansas City,-5.0
+135,Kansas St,4.2
+136,Kennesaw St,-4.2
+137,Kent St,-1.4
+138,Kentucky,5.8
+139,LA Tech,0.2
+140,LIU,-2.9
+141,LSU,2.4
+142,La Salle,-3.2
+143,Lafayette,-2.7
+144,Lamar,-7.6
+145,Le Moyne,-7.3
+146,Lehigh,-4.1
+147,Lg Beach St,-2.1
+148,Liberty,0.5
+149,Lindenwood,-10.7
+150,Lipscomb,-0.9
+151,Longwood,-5.5
+152,Louisiana,-1.0
+153,Louisville,0.5
+154,Loyola Mymt,-0.8
+155,Loyola-Chi,-0.7
+156,Loyola-MD,-4.9
+157,Maine,-3.2
+158,Manhattan,-5.6
+159,Marist,-5.3
+160,Marquette,10.2
+161,Marshall,-1.2
+162,Maryland,2.6
+163,Maryland BC,-7.3
+164,Maryland ES,-7.2
+165,Mass Lowell,-3.2
+166,McNeese St,-2.2
+167,Memphis,6.0
+168,Mercer,-5.9
+169,Merrimack,-3.9
+170,Miami,4.4
+171,Miami (OH),-3.5
+172,Michigan,6.4
+173,Michigan St,9.4
+174,Middle Tenn,-3.9
+175,Minnesota,0.2
+176,Miss State,4.9
+177,Miss Val St,-4.2
+178,Mississippi,2.7
+179,Missouri,3.7
+180,Missouri St,-0.6
+181,Monmouth,-1.1
+182,Montana,-0.9
+183,Montana St,-5.5
+184,Morehead St,-2.5
+185,Morgan St,-8.7
+186,Mt St Marys,-4.2
+187,Murray St,-0.9
+188,N Alabama,-4.5
+189,N Arizona,-2.6
+190,N Carolina,10.5
+191,N Colorado,-4.7
+192,N Dakota St,-3.0
+193,N Florida,-5.7
+194,N Hampshire,-2.0
+195,N Illinois,-0.6
+196,N Iowa,2.1
+197,N Kentucky,-2.2
+198,N Mex State,-3.4
+199,NC A&T,-4.0
+200,NC Central,-5.5
+201,NC State,3.9
+202,NC-Asheville,-1.9
+203,NC-Grnsboro,-1.6
+204,NC-Wilmgton,0.9
+205,NJIT,-7.0
+206,NW State,-7.4
+207,Navy,-6.3
+208,Neb Omaha,-7.3
+209,Nebraska,5.2
+210,Nevada,2.0
+211,New Mexico,2.5
+212,New Orleans,-8.1
+213,Niagara,-5.3
+214,Nicholls,-3.6
+215,Norfolk St,-3.3
+216,North Dakota,-7.2
+217,North Texas,1.5
+218,Northeastrn,-0.5
+219,Northwestern,4.8
+220,Notre Dame,2.3
+221,Oakland,1.6
+222,Ohio,-3.2
+223,Ohio St,4.8
+224,Oklahoma,6.1
+225,Oklahoma St,1.2
+226,Old Dominion,-0.5
+227,Oral Roberts,-1.5
+228,Oregon,5.0
+229,Oregon St,0.9
+230,Pacific,-8.4
+231,Penn St,2.7
+232,Pepperdine,-2.2
+233,Pittsburgh,3.7
+234,Portland,-4.9
+235,Portland St,-4.5
+236,Prairie View,-3.2
+237,Presbyterian,-8.3
+238,Princeton,1.4
+239,Providence,6.3
+240,Purdue,13.0
+241,Queens,-2.4
+242,Quinnipiac,-5.4
+243,Radford,-2.4
+244,Rhode Island,-0.9
+245,Rice,-3.5
+246,Richmond,1.7
+247,Rider,-1.8
+248,Rob Morris,-5.4
+249,Rutgers,4.7
+250,S Alabama,-6.0
+251,S Car State,-6.3
+252,S Carolina,2.2
+253,S Dakota St,-1.7
+254,S Florida,-2.3
+255,S Illinois,-1.8
+256,S Indiana,-8.5
+257,S Methodist,3.6
+258,S Mississippi,-2.9
+259,S Utah,-3.3
+260,SC Upstate,-4.2
+261,SE Louisiana,-5.2
+262,SE Missouri,-10.6
+263,SIU Edward,-6.4
+264,Sac State,-3.5
+265,Sacred Hrt,-7.2
+266,Saint Louis,0.1
+267,Sam Hous St,-1.8
+268,Samford,-3.5
+269,San Diego,-4.0
+270,San Diego St,6.1
+271,San Francisco,1.3
+272,San Jose St,-1.5
+273,Santa Clara,2.3
+274,Seattle,-2.1
+275,Seton Hall,5.8
+276,Siena,-5.4
+277,South Dakota,-7.3
+278,Southern,-2.4
+279,St Bonavent,2.6
+280,St Fran (PA),-7.2
+281,St Johns,7.3
+282,St Josephs,0.6
+283,St Marys,4.7
+284,St Peters,-3.2
+285,St. Thomas,-5.2
+286,Stanford,4.7
+287,Ste F Austin,-2.5
+288,Stetson,-2.2
+289,Stonehill,-6.0
+290,Stony Brook,-2.5
+291,Syracuse,5.2
+292,TN Martin,-6.5
+293,TN State,-6.8
+294,TN Tech,-7.3
+295,TX A&M-CC,-7.0
+296,TX A&M-Com,-4.7
+297,TX Christian,4.5
+298,TX El Paso,-4.2
+299,TX Southern,-0.9
+300,TX-Arlington,0.1
+301,TX-Pan Am,-5.0
+302,Tarleton St,-2.2
+303,Temple,-1.5
+304,Tennessee,11.1
+305,Texas,4.4
+306,Texas A&M,9.0
+307,Texas St,-1.3
+308,Texas Tech,3.7
+309,Toledo,1.9
+310,Towson,-1.5
+311,Troy,-3.4
+312,Tulane,-1.4
+313,Tulsa,-4.1
+314,U Mass,-1.1
+315,U Penn,-1.7
+316,UAB,-1.5
+317,UC Davis,-3.3
+318,UC Irvine,2.6
+319,UC Riverside,-3.1
+320,UCF,1.6
+321,UCLA,3.1
+322,UCSB,-4.4
+323,UCSD,-2.4
+324,UL Monroe,-6.9
+325,UNLV,3.7
+326,USC,6.0
+327,UTSA,-5.5
+328,Utah,8.8
+329,Utah St,2.3
+330,Utah Tech,-2.4
+331,Utah Valley,-0.7
+332,VA Tech,6.1
+333,VCU,1.2
+334,VMI,-8.9
+335,Valparaiso,-4.8
+336,Vanderbilt,0.7
+337,Vermont,-0.4
+338,Villanova,8.3
+339,Virginia,3.8
+340,W Carolina,-3.4
+341,W Illinois,-8.3
+342,W Kentucky,-3.2
+343,W Michigan,-3.3
+344,W Virginia,3.4
+345,WI-Grn Bay,-5.1
+346,WI-Milwkee,-4.1
+347,Wagner,-7.3
+348,Wake Forest,4.2
+349,Wash State,3.4
+350,Washington,6.7
+351,Weber St,-0.5
+352,Wichita St,1.5
+353,Winthrop,-1.7
+354,Wisconsin,10.5
+355,Wm & Mary,-7.1
+356,Wofford,-3.2
+357,Wright St,-1.4
+358,Wyoming,-0.5
+359,Xavier,8.6
+360,Yale,1.9
+361,Youngs St,-3.9

@@ -1,0 +1,11 @@
+- Add selenium to scrape all lines
+- Add logic for missing columns
+- Add more equations
+- Add results analysis
+
+
+
+
+
+
+- Add to site
