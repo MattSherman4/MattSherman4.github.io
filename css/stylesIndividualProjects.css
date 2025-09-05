@@ -103,3 +103,10 @@ body {
     margin-left: 2vw;
     margin-right: 2vw;
 }
+
+.shortNav {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 110vw;
+}
